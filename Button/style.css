@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 800px;
+    border: solid black;
+    background-color: crimson;
+}
+.nav{
+    height: 40px;
+    width: 600px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(60, 164, 224);
+}
+#search{
+    text-align: start;
+    border: thin grey;
+    color: lightblue;
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    height: 260px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    background-color: white;
+    width: 350px;
+    margin: 5px;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    background-color: white;
+    width: 350px;
+    margin: 5px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    background-color: white;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    padding: 2px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+Japanese{
+    text-decoration: underline;
+}
+ninjutsu{
+    text-decoration: underline;
+}
+programmer{
+    text-decoration: underline;
+}
+zen{
+    text-decoration: underline;
+}
+button{
+    width: 90px;
+}
